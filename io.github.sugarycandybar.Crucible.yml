@@ -36,5 +36,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/sugarycandybar/Crucible.git
-        commit: 371ad14eb31ea37cd0374c4f28089da316e8fe45
+        commit: 3330eef38c4c7ac8bb326e6e143c2d67dc0d2be5
       - generated-sources.json
