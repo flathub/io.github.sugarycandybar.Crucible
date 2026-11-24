@@ -19,8 +19,8 @@ modules:
       - install -Dm755 stress-ng /app/bin/stress-ng
     sources:
       - type: archive
-        url: https://github.com/ColinIanKing/stress-ng/archive/refs/tags/V0.21.00.tar.gz
-        sha256: 1339cbc6ccbff7e2ee2177bf0fd67e7b94e8ff7b07fe89bcfaec0280d800cf34
+        url: https://github.com/ColinIanKing/stress-ng/archive/refs/tags/V0.22.02.tar.gz
+        sha256: 860004ce7484311b3296fc52796fbbc34dfb7f644a769bbd4e03935b7a1b0ccb
         x-checker-data:
           type: json
           url: https://api.github.com/repos/ColinIanKing/stress-ng/releases/latest
@@ -37,5 +37,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/sugarycandybar/Crucible.git
-        commit: 25d27dc41736173766ee197a0d3cb0884a5e10bf
+        commit: 398a3763d60f1efdef790d229a3be3f3f61f1028
       - generated-sources.json
