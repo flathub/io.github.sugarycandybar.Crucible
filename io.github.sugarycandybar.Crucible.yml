@@ -19,8 +19,8 @@ modules:
       - install -Dm755 stress-ng /app/bin/stress-ng
     sources:
       - type: archive
-        url: https://github.com/ColinIanKing/stress-ng/archive/refs/tags/V0.22.02.tar.gz
-        sha256: 860004ce7484311b3296fc52796fbbc34dfb7f644a769bbd4e03935b7a1b0ccb
+        url: https://api.github.com/repos/ColinIanKing/stress-ng/tarball/V0.22.02
+        sha256: df17468e2b5752aae04aa63e0bf979c1c35161a3ae64fcfe4182762c932900c3
         x-checker-data:
           type: json
           url: https://api.github.com/repos/ColinIanKing/stress-ng/releases/latest
